@@ -142,10 +142,8 @@ namespace Zamatina_n1
                 for (i = 0; i < n; i++)
                 {
 
-                    if (cb_norm.Checked)
-                        values[i] = ((double)z0 / (double)c);
-                    else
-                        values[i] = z0;
+                    
+                    values[i] = ((double)z0 / (double)c);                   
                     //lb_raspr.Items.Add(values[i]);
                     m[(int)Math.Truncate((double)z0 / (double)c * mash)]++;
                     zn = (a * z0 + b) % c;
